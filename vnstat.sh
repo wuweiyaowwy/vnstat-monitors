@@ -32,7 +32,7 @@ if [[ -z "$LINE" ]]; then
   exit 1
 fi
 
-# 解析 RX、TX 和 TOTAL（原始版本保留为注释）
+# 解析 RX、TX 和 TOTAL（原始版本）
 # RX=$(echo "$LINE" | awk '{print $2}')
 # RX_UNIT=$(echo "$LINE" | awk '{print $3}')
 TX=$(echo "$LINE" | awk '{print $5}')
